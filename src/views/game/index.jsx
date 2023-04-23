@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Board from "./Board";
+import Board from "./components/Board";
 
 export default function Game() {
   console.log("Game re-render");

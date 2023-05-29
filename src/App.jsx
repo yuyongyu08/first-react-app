@@ -1,25 +1,8 @@
 import React, { useState } from "react";
+import demos from "./demos";
 
-import Game from "./views/game";
-import FilterableProductTable from "./views/filterable-product-table";
-import TeaSet from "./components/TeaSet";
-
-const DemoList = [
-  {
-    title: "tic-tac-toe",
-    compoment: <Game />,
-  },
-  {
-    title: "FilterableProductTable",
-    compoment: <FilterableProductTable />,
-  },
-  {
-    title: "pure component",
-    compoment: <TeaSet />,
-  },
-];
 export default function App() {
-  const [currentCompoment, setCurrentCompoment] = useState(DemoList[0].compoment);
+  const [currentCompoment, setCurrentCompoment] = useState(demos[0].compoment);
   const handleClick = (compoment) => {
     setCurrentCompoment(compoment);
   };
@@ -28,7 +11,7 @@ export default function App() {
     <section className="main">
       <aside className="menu">
         <ul>
-          {DemoList.map((item) => (
+          {demos.map((item) => (
             <li style={{ cursor: "pointer" }} key={item.title} onClick={() => handleClick(item.compoment)}>
               {item.title}
             </li>

@@ -5,6 +5,7 @@ import TeaSet from "./components/TeaSet";
 import TodoList from "./components/TodoList";
 import Card from "./components/Card";
 import Profile from "./views/passing-props-to-component/Profile";
+import PackingList from "./views/conditional-rendering/PackingList";
 
 const demos = [
     {
@@ -34,6 +35,10 @@ const demos = [
     {
       title: "passing props to component ",
       compoment: <Profile />,
+    },
+    {
+      title: "conditional rendering ",
+      compoment: <PackingList />,
     },
   ];
 

@@ -6,6 +6,7 @@ import TodoList from "./components/TodoList";
 import Card from "./components/Card";
 import Profile from "./views/passing-props-to-component/Profile";
 import PackingList from "./views/conditional-rendering/PackingList";
+import List from "./views/rendering-lists/List";
 
 const demos = [
     {
@@ -39,6 +40,10 @@ const demos = [
     {
       title: "conditional rendering ",
       compoment: <PackingList />,
+    },
+    {
+      title: "rendering lists",
+      compoment: <List />,
     },
   ];
 

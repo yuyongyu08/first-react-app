@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import demos from "./demos";
 
 export default function App() {
-  const [currentCompoment, setCurrentCompoment] = useState(demos[0].compoment);
+  const [currentCompoment, setCurrentCompoment] = useState(demos[demos.length - 1].compoment);
   const handleClick = (compoment) => {
     setCurrentCompoment(compoment);
   };

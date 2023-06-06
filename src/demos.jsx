@@ -1,12 +1,12 @@
 import Game from "./views/game";
 import FilterableProductTable from "./views/filterable-product-table";
-import Gallery from "./components/Gallery";
-import TodoList from "./components/TodoList";
-import Card from "./components/Card";
-import Profile from "./views/passing-props-to-component/Profile";
-import PackingList from "./views/conditional-rendering/PackingList";
-import List from "./views/rendering-lists/List";
-import TeaSet from "./views/keeping-components-pure/TeaSet";
+import Gallery from "./view/1-first-component/Gallery";
+import TodoList from "./views/2-writing-markup-with-jsx/TodoList";
+import Card from "./views/3-mixing JavaScript and JSX/Card";
+import Profile from "./views/4-passing-props-to-component/Profile";
+import PackingList from "./views/5-conditional-rendering/PackingList";
+import List from "./views/6-rendering-lists/List";
+import TeaSet from "./views/7-keeping-components-pure/TeaSet";
 
 const demos = [
     {

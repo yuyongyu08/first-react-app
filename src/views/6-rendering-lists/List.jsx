@@ -42,3 +42,10 @@ export default function List() {
     </>
   );
 }
+
+/**
+ * 列表渲染：
+ * 2、通过filter函数，过滤数组
+ * 2、通过map函数，将数组转换成JSX数组
+ * 3、渲染列表时，需要给每个元素设置key，key必须是唯一的，避免使用index作为key，因为index不是唯一的，当数组中的元素发生变化时，index可能会发生变化，导致key不唯一
+ */

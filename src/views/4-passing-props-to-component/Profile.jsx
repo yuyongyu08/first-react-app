@@ -28,7 +28,7 @@ export default function Profile() {
 }
 
 /**
- * 1、用函数的入参来接收props，一般直接结构出来，便于设置默认值，形如：function Avatar({ person, size = 100 })
+ * 1、用函数的入参来接收props，一般直接结构出来，便于设置默认值，形如：function Avatar({ person, size = 100 })，默认值只有在props中没有传递时或为undefined才会生效，null不会生效
  * 2、组件可以设置卡槽，用children来接收，形如：function Card({ color, children })
  * 3、React是单向数据流，父组件可以向子组件传递props，但是子组件不能修改props，只能由父组件修改
  */

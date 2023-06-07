@@ -64,9 +64,17 @@ ul {
 }
 
 .menu ul li{
-  padding: 5px 0;
+  padding: 8px 0;
 }
 
-.menu ul li:hover{
+.menu ol li
+{
+  cursor: pointer;
+}
+.menu ol li:hover{
+  background-color: #e0e0e0;
+}
+
+.active{
   background-color: #e0e0e0;
 }

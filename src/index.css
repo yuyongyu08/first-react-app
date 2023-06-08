@@ -50,31 +50,31 @@ ul {
   box-sizing: border-box;
 }
 
-.main{
+.main {
   display: flex;
 }
 
-.menu{
+.menu {
   background-color: #f0f0f0;
   margin-right: 50px;
 }
 
-.menu ul{
+.menu ul {
   padding: 20px;
 }
 
-.menu ul li{
-  padding: 8px 0;
+.menu ul li {
+  margin-top: 10px;
+    padding: 5px;
 }
 
-.menu ol li
-{
+.menu ol li {
   cursor: pointer;
 }
-.menu ol li:hover{
+.menu ol li:hover {
   background-color: #e0e0e0;
 }
 
-.active{
+.active {
   background-color: #e0e0e0;
 }

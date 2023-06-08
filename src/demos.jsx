@@ -9,6 +9,7 @@ import List from "./views/2-describing-the-ui/6-rendering-lists/List";
 import TeaSet from "./views/2-describing-the-ui/7-keeping-components-pure/TeaSet";
 
 import Toolbar from "./views/3-adding-interactivity/1-responding-to-events/Toolbar";
+import * as StateFulGallery from "./views/3-adding-interactivity/2-state/Gallery";
 
 const demos = [
   {
@@ -63,6 +64,10 @@ const demos = [
       { 
         title: "responding-to-events",
         compoment: <Toolbar/>,  
+      },  
+      { 
+        title: "state",
+        compoment: <StateFulGallery.default/>,  
       },  
     ],
   }

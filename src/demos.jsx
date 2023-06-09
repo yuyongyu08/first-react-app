@@ -11,7 +11,8 @@ import TeaSet from "./views/2-describing-the-ui/7-keeping-components-pure/TeaSet
 import Toolbar from "./views/3-adding-interactivity/1-responding-to-events/Toolbar";
 import * as StateFulGallery from "./views/3-adding-interactivity/2-state/Gallery";
 import ClockWall from "./views/3-adding-interactivity/3-render-and-commit/ClockWall";
-import DemoEntry from "./views/3-adding-interactivity/4-state-as-a-snapshot/DemoEntry";
+import MessageSender from "./views/3-adding-interactivity/4-state-as-a-snapshot/MessageSender";
+import Counter from "./views/3-adding-interactivity/5-batchs-state-updates/Counter";
 
 const demos = [
   {
@@ -77,8 +78,12 @@ const demos = [
       },
       { 
         title: "state-as-a-snapshot",
-        compoment: <DemoEntry/>,  
+        compoment: <MessageSender/>,  
       },
+      {
+        title: "batchs-state-updates",
+        compoment: <Counter/>,
+      }
     ],
   }
 ];

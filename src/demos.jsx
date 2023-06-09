@@ -10,6 +10,8 @@ import TeaSet from "./views/2-describing-the-ui/7-keeping-components-pure/TeaSet
 
 import Toolbar from "./views/3-adding-interactivity/1-responding-to-events/Toolbar";
 import * as StateFulGallery from "./views/3-adding-interactivity/2-state/Gallery";
+import ClockWall from "./views/3-adding-interactivity/3-render-and-commit/ClockWall";
+import DemoEntry from "./views/3-adding-interactivity/4-state-as-a-snapshot/DemoEntry";
 
 const demos = [
   {
@@ -69,6 +71,14 @@ const demos = [
         title: "state",
         compoment: <StateFulGallery.default/>,  
       },  
+      { 
+        title: "render-and-commit",
+        compoment: <ClockWall/>,  
+      },
+      { 
+        title: "state-as-a-snapshot",
+        compoment: <DemoEntry/>,  
+      },
     ],
   }
 ];

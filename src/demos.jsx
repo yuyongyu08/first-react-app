@@ -13,6 +13,7 @@ import * as StateFulGallery from "./views/3-adding-interactivity/2-state/Gallery
 import ClockWall from "./views/3-adding-interactivity/3-render-and-commit/ClockWall";
 import MessageSender from "./views/3-adding-interactivity/4-state-as-a-snapshot/MessageSender";
 import Counter from "./views/3-adding-interactivity/5-batchs-state-updates/Counter";
+import MixinForm from "./views/3-adding-interactivity/6-updating-objects-in-state/MixinForm";
 
 const demos = [
   {
@@ -83,6 +84,10 @@ const demos = [
       {
         title: "batchs-state-updates",
         compoment: <Counter/>,
+      },
+      {
+        title: "updateing objects in state",
+        compoment: <MixinForm/>,
       }
     ],
   }

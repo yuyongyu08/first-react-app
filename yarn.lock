@@ -498,6 +498,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+immer@^10.0.2:
+  version "10.0.2"
+  resolved "https://nac.kucoin.com:1149/immer/-/immer-10.0.2.tgz#11636c5b77acf529e059582d76faf338beb56141"
+  integrity sha512-Rx3CqeqQ19sxUtYV9CU911Vhy8/721wRFnJv3REVGWUmoAcIwzifTsdmJte/MV+0/XpM35LZdQMBGkRIoLPwQA==
+
 is-core-module@^2.11.0:
   version "2.12.0"
   resolved "https://registry.npmmirror.com/is-core-module/-/is-core-module-2.12.0.tgz#36ad62f6f73c8253fd6472517a12483cf03e7ec4"
@@ -652,6 +657,11 @@ update-browserslist-db@^1.0.10:
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
+
+use-immer@^0.9.0:
+  version "0.9.0"
+  resolved "https://nac.kucoin.com:1149/use-immer/-/use-immer-0.9.0.tgz#66e4e8f7ab75df45e96dfd5c56337f9fd49db9fd"
+  integrity sha512-/L+enLi0nvuZ6j4WlyK0US9/ECUtV5v9RUbtxnn5+WbtaXYUaOBoKHDNL9I5AETdurQ4rIFIj/s+Z5X80ATyKw==
 
 vite@^4.2.1:
   version "4.2.1"

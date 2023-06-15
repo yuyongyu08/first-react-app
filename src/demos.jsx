@@ -14,6 +14,7 @@ import ClockWall from "./views/3-adding-interactivity/3-render-and-commit/ClockW
 import MessageSender from "./views/3-adding-interactivity/4-state-as-a-snapshot/MessageSender";
 import Counter from "./views/3-adding-interactivity/5-batchs-state-updates/Counter";
 import MixinForm from "./views/3-adding-interactivity/6-updating-objects-in-state/MixinForm";
+import TaskApp from "./views/3-adding-interactivity/7-updating-arrays-in-state/TaskApp";
 
 const demos = [
   {
@@ -88,6 +89,10 @@ const demos = [
       {
         title: "updateing objects in state",
         compoment: <MixinForm/>,
+      },
+      {
+        title: "updateing arrays in state",
+        compoment: <TaskApp/>,
       }
     ],
   }

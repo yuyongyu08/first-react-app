@@ -15,7 +15,9 @@ import MessageSender from "./views/3-adding-interactivity/4-state-as-a-snapshot/
 import Counter from "./views/3-adding-interactivity/5-batchs-state-updates/Counter";
 import MixinForm from "./views/3-adding-interactivity/6-updating-objects-in-state/MixinForm";
 import TaskApp from "./views/3-adding-interactivity/7-updating-arrays-in-state/TaskApp";
+import ChoosingTheStateStructure from "./views/4-managing-state/2-choosing-the-state-structure";  
 
+import Form from "./views/4-managing-state/1-reacting-to-input-with-state/Form";
 const demos = [
   {
     chapter: "1-quick-start",
@@ -93,6 +95,19 @@ const demos = [
       {
         title: "updateing arrays in state",
         compoment: <TaskApp/>,
+      }
+    ],
+  },
+  {
+    chapter: "4-structuring-applications",
+    children: [
+      {
+        title: "reacting-to-input-with-state",
+        compoment: <Form/>,
+      },
+      {
+        title: "choosing-the-state-structure",
+        compoment: <ChoosingTheStateStructure/>,
       }
     ],
   }

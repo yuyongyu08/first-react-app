@@ -47,15 +47,16 @@ export default function ChoosingTheStateStructure() {
         </p>
       </ol>
 
-      <br/>
+      <br />
       <h1>Choosing the state structure</h1>
-      <ol>
+      <ol style={{ listStyle: "auto" }}>
         <li>如果两个state总是同时更新，合并成一个state，比如坐标的X、Y轴</li>
         <li>避免声明矛盾的state，比如同时声明sending和sent</li>
         <li>避免重复声明state（通过props或state计算可以获得），比如同时声明error和errorText</li>
         <li>避免state的数据结构深度嵌套，可以将数据拍平便于更新，比如树形结构只做一维存储</li>
         <li>对于数组对象，如果要记录某个元素，尽量记录此元素对象的ID，而不是整个对象</li>
       </ol>
+      <br />
       <strong>将props作为state的初始值，props再次变化不会引发子组件state的更新，这种state只在第一次渲染时初始化</strong>
     </>
   );

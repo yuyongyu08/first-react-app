@@ -15,9 +15,12 @@ import MessageSender from "./views/3-adding-interactivity/4-state-as-a-snapshot/
 import Counter from "./views/3-adding-interactivity/5-batchs-state-updates/Counter";
 import MixinForm from "./views/3-adding-interactivity/6-updating-objects-in-state/MixinForm";
 import TaskApp from "./views/3-adding-interactivity/7-updating-arrays-in-state/TaskApp";
-import ChoosingTheStateStructure from "./views/4-managing-state/2-choosing-the-state-structure";  
 
+import ChoosingTheStateStructure from "./views/4-managing-state/2-choosing-the-state-structure";  
 import Form from "./views/4-managing-state/1-reacting-to-input-with-state/Form";
+import Accordion from "./views/4-managing-state/3-sharing-state-between-components/Accordion";
+
+
 const demos = [
   {
     chapter: "1-quick-start",
@@ -108,6 +111,10 @@ const demos = [
       {
         title: "choosing-the-state-structure",
         compoment: <ChoosingTheStateStructure/>,
+      },
+      {
+        title: "sharing-state-between-components",
+        compoment: <Accordion/>,
       }
     ],
   }

@@ -19,7 +19,7 @@ import TaskApp from "./views/3-adding-interactivity/7-updating-arrays-in-state/T
 import ChoosingTheStateStructure from "./views/4-managing-state/2-choosing-the-state-structure";  
 import Form from "./views/4-managing-state/1-reacting-to-input-with-state/Form";
 import Accordion from "./views/4-managing-state/3-sharing-state-between-components/Accordion";
-
+import Scoreboard from "./views/4-managing-state/4-preserving-and-presetting-state/Scoreboard";
 
 const demos = [
   {
@@ -115,6 +115,10 @@ const demos = [
       {
         title: "sharing-state-between-components",
         compoment: <Accordion/>,
+      },
+      {
+        title: "preserving-and-presetting-state",
+        compoment: <Scoreboard/>,
       }
     ],
   }

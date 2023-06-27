@@ -20,6 +20,7 @@ import ChoosingTheStateStructure from "./views/4-managing-state/2-choosing-the-s
 import Form from "./views/4-managing-state/1-reacting-to-input-with-state/Form";
 import Accordion from "./views/4-managing-state/3-sharing-state-between-components/Accordion";
 import Scoreboard from "./views/4-managing-state/4-preserving-and-presetting-state/Scoreboard";
+import TaskAppWithReducer from "./views/4-managing-state/5-extracting-state-logic-into-a-reducer/TaskApp";
 
 const demos = [
   {
@@ -119,6 +120,10 @@ const demos = [
       {
         title: "preserving-and-presetting-state",
         compoment: <Scoreboard/>,
+      },
+      {
+        title: "extracting-state-logic-into-a-reducer",
+        compoment: <TaskAppWithReducer/>,
       }
     ],
   }

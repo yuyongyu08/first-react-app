@@ -21,6 +21,7 @@ import Form from "./views/4-managing-state/1-reacting-to-input-with-state/Form";
 import Accordion from "./views/4-managing-state/3-sharing-state-between-components/Accordion";
 import Scoreboard from "./views/4-managing-state/4-preserving-and-presetting-state/Scoreboard";
 import TaskAppWithReducer from "./views/4-managing-state/5-extracting-state-logic-into-a-reducer/TaskApp";
+import SectionBoard from "./views/4-managing-state/6-passing-data-deeply-with-context/SectionBoard";
 
 const demos = [
   {
@@ -124,6 +125,10 @@ const demos = [
       {
         title: "extracting-state-logic-into-a-reducer",
         compoment: <TaskAppWithReducer/>,
+      },
+      {
+        title: "passing-data-deeply-with-context",
+        compoment: <SectionBoard/>,
       }
     ],
   }

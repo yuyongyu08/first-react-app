@@ -22,6 +22,7 @@ import Accordion from "./views/4-managing-state/3-sharing-state-between-componen
 import Scoreboard from "./views/4-managing-state/4-preserving-and-presetting-state/Scoreboard";
 import TaskAppWithReducer from "./views/4-managing-state/5-extracting-state-logic-into-a-reducer/TaskApp";
 import SectionBoard from "./views/4-managing-state/6-passing-data-deeply-with-context/SectionBoard";
+import TaskAppWithReducerAndContext from "./views/4-managing-state/7-scaling-up-with-reducer-and-context/TaskApp.jsx";
 
 const demos = [
   {
@@ -129,6 +130,10 @@ const demos = [
       {
         title: "passing-data-deeply-with-context",
         compoment: <SectionBoard/>,
+      },
+      {
+        title: "scaling-up-with-reducer-and-context",
+        compoment: <TaskAppWithReducerAndContext/>,
       }
     ],
   }

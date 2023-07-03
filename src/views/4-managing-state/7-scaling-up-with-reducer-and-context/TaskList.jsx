@@ -1,4 +1,4 @@
-import { useTasks } from './TasksContext.js';
+import { useTasks } from './TasksContext.jsx';
 import Task from './Task';
 
 export default function TaskList() {

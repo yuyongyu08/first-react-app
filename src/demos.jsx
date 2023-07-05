@@ -25,6 +25,7 @@ import SectionBoard from "./views/4-managing-state/6-passing-data-deeply-with-co
 import TaskAppWithReducerAndContext from "./views/4-managing-state/7-scaling-up-with-reducer-and-context/TaskApp.jsx";
 
 import Stopwatch from "./views/5-escape-hatches/1-referencing-values-with-refs/Stopwatch";
+import MyForm from "./views/5-escape-hatches/2-manipulating-the-dom-with-refs/MyForm";
 
 const demos = [
   {
@@ -146,6 +147,10 @@ const demos = [
         title: "referencing-values-with-refs",
         compoment: <Stopwatch/>,
       },
+      {
+        title: "manipulating-the-dom-with-refs",
+        compoment: <MyForm/>,
+      }
     ]
   }
 ];

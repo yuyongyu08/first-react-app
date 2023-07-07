@@ -26,6 +26,7 @@ import TaskAppWithReducerAndContext from "./views/4-managing-state/7-scaling-up-
 
 import Stopwatch from "./views/5-escape-hatches/1-referencing-values-with-refs/Stopwatch";
 import MyForm from "./views/5-escape-hatches/2-manipulating-the-dom-with-refs/MyForm";
+import MyApp from "./views/5-escape-hatches/3-synchronizing-with-effects/MyApp";
 
 const demos = [
   {
@@ -150,6 +151,10 @@ const demos = [
       {
         title: "manipulating-the-dom-with-refs",
         compoment: <MyForm/>,
+      },
+      {
+        title: "synchronizing-with-effects",
+        compoment: <MyApp/>,
       }
     ]
   }

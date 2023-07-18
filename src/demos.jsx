@@ -27,6 +27,7 @@ import TaskAppWithReducerAndContext from "./views/4-managing-state/7-scaling-up-
 import Stopwatch from "./views/5-escape-hatches/1-referencing-values-with-refs/Stopwatch";
 import MyForm from "./views/5-escape-hatches/2-manipulating-the-dom-with-refs/MyForm";
 import MyApp from "./views/5-escape-hatches/3-synchronizing-with-effects/MyApp";
+import ChatApp from "./views/5-escape-hatches/5-lifecycle-of-reactive-effects/ChatApp";
 
 const demos = [
   {
@@ -155,6 +156,10 @@ const demos = [
       {
         title: "synchronizing-with-effects",
         compoment: <MyApp/>,
+      },
+      {
+        title: "lifecycle-of-reactive-effects",
+        compoment: <ChatApp/>,
       }
     ]
   }

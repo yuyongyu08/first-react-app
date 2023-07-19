@@ -30,6 +30,9 @@ export default function MyApp(){
 }
 
 /**
+ * Effect 是什么？ 作用是什么？
+ * Effect 是一个函数，它在组件挂载（mount）和更新（update）时运行。主要用于处理和React无关的交互（synchronization）
+ * 
  * 
  * 1、Effect 在组件更新后的 commit 结束时运行
  * （Effects run at the end of a commit after the screen updates）

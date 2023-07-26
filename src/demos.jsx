@@ -29,6 +29,7 @@ import MyForm from "./views/5-escape-hatches/2-manipulating-the-dom-with-refs/My
 import MyApp from "./views/5-escape-hatches/3-synchronizing-with-effects/MyApp";
 import ChatApp from "./views/5-escape-hatches/5-lifecycle-of-reactive-effects/ChatApp";
 import ChatAppWithHooks from "./views/5-escape-hatches/6-separating-events-from-effects/ChatApp";
+import CustomHookApp from "./views/5-escape-hatches/8-reusing-logix-with-custom-hooks/App"
 
 const demos = [
   {
@@ -165,6 +166,10 @@ const demos = [
       {
         title: "separating-events-from-effects",
         compoment: <ChatAppWithHooks/>,
+      },
+      {
+        title: "reusing-logix-with-custom-hooks",
+        compoment: <CustomHookApp/>,
       }
     ]
   }

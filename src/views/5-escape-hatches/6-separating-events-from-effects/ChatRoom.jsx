@@ -1,4 +1,5 @@
 import { useEffect, useCallback } from "react";
+import { experimental_useEffectEvent as useEffectEvent } from 'react';
 import { createConnection } from "./chat.js";
 import { showNotification } from "./notifications.js";
 const serverUrl = "https://localhost:1234";

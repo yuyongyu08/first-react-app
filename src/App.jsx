@@ -16,7 +16,7 @@ export default function App() {
           {demos.map((item) => (
             <li key={item.chapter}>
               {item.chapter}
-              <ol style={{ listStyle: "auto", marginLeft: "50px" }}>
+              <ol >
                 {item.children.map((children) => (
                   <li
                     key={children.title}
@@ -31,7 +31,7 @@ export default function App() {
           ))}
         </ul>
       </aside>
-      <main>{currentSection.compoment}</main>
+      <main className="container">{currentSection.compoment}</main>
     </section>
   );
 }

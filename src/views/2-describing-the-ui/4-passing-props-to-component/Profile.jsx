@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Avatar from "./Avatar";
 import Card from "./Card";
+import Summary from "../../../components/summary";
 
 export default function Profile() {
   const [color, setColor] = useState("lightcoral");
@@ -23,12 +24,16 @@ export default function Profile() {
           }}
         />
       </Card>
+      <Summary>
+        <ol>
+          <li>
+            用函数的入参来接收props，一般直接解构出来，便于设置默认值
+            ，默认值只有在props中没有传递时或为undefined才会生效，null不会生效
+          </li>
+          <li>组件可以设置卡槽，用children属性来接收</li>
+          <li>React是纯粹的单向数据流，父组件可以向子组件传递props，但是子组件不能直接修改props，只能由通过父组件的函数来进行修改</li>
+        </ol>
+      </Summary>
     </>
   );
 }
-
-/**
- * 1、用函数的入参来接收props，一般直接结构出来，便于设置默认值，形如：function Avatar({ person, size = 100 })，默认值只有在props中没有传递时或为undefined才会生效，null不会生效
- * 2、组件可以设置卡槽，用children来接收，形如：function Card({ color, children })
- * 3、React是单向数据流，父组件可以向子组件传递props，但是子组件不能修改props，只能由父组件修改
- */

@@ -33,10 +33,10 @@ import CustomHookApp from "./views/5-escape-hatches/8-reusing-logix-with-custom-
 
 const demos = [
   {
-    chapter: "1-quick-start",
+    chapter: "1. quick start",
     children: [
       {
-        title: "tic-tac-toe",
+        title: "tic tac toe",
         compoment: <Game />,
       },
       {
@@ -46,7 +46,7 @@ const demos = [
     ],
   },
   {
-    chapter: "2-describing-the-ui",
+    chapter: "2. describing the ui",
     children: [
       {
         title: "my first component",
@@ -73,16 +73,16 @@ const demos = [
         compoment: <List />,
       },
       {
-        title: "keeping-components-pure",
+        title: "keeping components pure",
         compoment: <TeaSet />,
       },
     ],
   },
   {
-    chapter: "3-handling-events",
+    chapter: "3. handling events",
     children: [
       { 
-        title: "responding-to-events",
+        title: "responding to events",
         compoment: <Toolbar/>,  
       },  
       { 
@@ -90,15 +90,15 @@ const demos = [
         compoment: <StateFulGallery.default/>,  
       },  
       { 
-        title: "render-and-commit",
+        title: "render and commit",
         compoment: <ClockWall/>,  
       },
       { 
-        title: "state-as-a-snapshot",
+        title: "state as a snapshot",
         compoment: <MessageSender/>,  
       },
       {
-        title: "batchs-state-updates",
+        title: "batchs state updates",
         compoment: <Counter/>,
       },
       {
@@ -112,63 +112,63 @@ const demos = [
     ],
   },
   {
-    chapter: "4-structuring-applications",
+    chapter: "4. structuring applications",
     children: [
       {
-        title: "reacting-to-input-with-state",
+        title: "reacting to input with state",
         compoment: <Form/>,
       },
       {
-        title: "choosing-the-state-structure",
+        title: "choosing the state structure",
         compoment: <ChoosingTheStateStructure/>,
       },
       {
-        title: "sharing-state-between-components",
+        title: "sharing state between components",
         compoment: <Accordion/>,
       },
       {
-        title: "preserving-and-presetting-state",
+        title: "preserving and presetting state",
         compoment: <Scoreboard/>,
       },
       {
-        title: "extracting-state-logic-into-a-reducer",
+        title: "extracting state logic into a reducer",
         compoment: <TaskAppWithReducer/>,
       },
       {
-        title: "passing-data-deeply-with-context",
+        title: "passing data deeply with context",
         compoment: <SectionBoard/>,
       },
       {
-        title: "scaling-up-with-reducer-and-context",
+        title: "scaling up with reducer and context",
         compoment: <TaskAppWithReducerAndContext/>,
       }
     ],
   },
   {
-    chapter: "5-escape-hatches",
+    chapter: "5. escape hatches",
     children: [
       {
-        title: "referencing-values-with-refs",
+        title: "referencing values with refs",
         compoment: <Stopwatch/>,
       },
       {
-        title: "manipulating-the-dom-with-refs",
+        title: "manipulating the dom with refs",
         compoment: <MyForm/>,
       },
       {
-        title: "synchronizing-with-effects",
+        title: "synchronizing with effects",
         compoment: <MyApp/>,
       },
       {
-        title: "lifecycle-of-reactive-effects",
+        title: "lifecycle of reactive effects",
         compoment: <ChatApp/>,
       },
       {
-        title: "separating-events-from-effects",
+        title: "separating events from effects",
         compoment: <ChatAppWithHooks/>,
       },
       {
-        title: "reusing-logix-with-custom-hooks",
+        title: "reusing logix with custom hooks",
         compoment: <CustomHookApp/>,
       }
     ]

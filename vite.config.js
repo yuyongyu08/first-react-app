@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/react-demo/",
   build: {
-    outDir: "/Users/roryyu/Devs/yuyongyu08.github.io/react-demo",
+    outDir: "/Users/mac/Devs/yuyongyu08.github.io/react-demo",
   },
   plugins: [react()],
   server: {

@@ -31,6 +31,8 @@ import ChatApp from "./views/5-escape-hatches/5-lifecycle-of-reactive-effects/Ch
 import ChatAppWithHooks from "./views/5-escape-hatches/6-separating-events-from-effects/ChatApp";
 import CustomHookApp from "./views/5-escape-hatches/8-reusing-logix-with-custom-hooks/App"
 
+import Parent from "./views/6-other/1-invalid-rerender/Parent";
+
 const demos = [
   {
     chapter: "1. quick start",
@@ -172,6 +174,15 @@ const demos = [
         compoment: <CustomHookApp/>,
       }
     ]
+  },
+  {
+    chapter: "6. other",
+    children: [
+      {
+        title: "invalid-rerender",
+        compoment: <Parent/>,
+      },
+    ],
   }
 ];
 

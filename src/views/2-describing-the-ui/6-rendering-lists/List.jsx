@@ -34,7 +34,7 @@ export default function List() {
   return (
     <>
       <section>
-        <h1>TODO List</h1>
+        <h1>使用数组的index作为key，会有什么问题？</h1>
         {todoListItems}
         <p>
           复现步骤：先选中todo2，然后删除todo1，todo2的选中状态会变成false

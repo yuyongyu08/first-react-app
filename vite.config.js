@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/",
+  base: "/react-demo/",
   build: {
     outDir: "/Users/mac/Devs/yuyongyu08.github.io/react-demo",
   },

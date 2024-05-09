@@ -38,7 +38,7 @@ import Parent from "../views/6-other/1-invalid-rerender/Parent.jsx";
 
 export const routes = [
   {
-    path: "",
+    path: "react-demo",
     element: <Layout />,
     children: [
       {

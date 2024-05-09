@@ -67,7 +67,7 @@ ul {
 }
 
 .menu ul li {
-  padding: 5px;
+  padding: 2px;
 }
 
 .menu ol {
@@ -80,12 +80,27 @@ ul {
 }
 .menu ol li:hover {
   background-color: #e0e0e0;
+  border-radius: 6px;
+}
+
+.menu ol li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
 }
 
 .container {
   padding: 20px;
 }
 
-.active {
-  background-color: #e0e0e0;
+.menu ol li:hover,li:has( > a.active) {
+  background-color: #1467e9d1;
+  border-radius: 6px;
 }
+.menu ol li:hover a,li:has( > a.active) a {
+  color: #fff !important;
+}
+
+

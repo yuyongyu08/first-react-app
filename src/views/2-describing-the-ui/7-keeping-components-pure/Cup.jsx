@@ -1,3 +1,6 @@
-export default function Cup({guest}){
-    return <h2>Tea cup for guest #{guest}</h2>;
+let guest = 0;
+
+export default function Cup({ index }) {
+  guest = index + 1;
+  return <h3>Tea cup for guest #{guest}</h3>;
 }
